@@ -1,5 +1,6 @@
 import React from 'react';
-import { SiUpwork, SiLinkedin, SiFacebook, SiInstagram, SiGithub } from 'react-icons/si';
+import { SiUpwork, SiFacebook, SiInstagram, SiGithub } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 const App = () => {
   const sendEmail = (e) => {
     e.preventDefault();
