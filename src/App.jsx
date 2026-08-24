@@ -1,14 +1,14 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
 const App = () => {
- const sendEmail = (e) => {
+const sendEmail = (e) => {
   e.preventDefault();
 
   emailjs.sendForm(
     'service_6wyhaew', 
     'template_qcj27b9', 
     e.target,
-    'YOUR_PUBLIC_KEY' // <--- Yahan EmailJS Account tab se milli Public Key paste karein
+    '0xnQJmwnbMG2sU_Yj'
   )
   .then(() => {
     alert('Message sent successfully! 🚀');
