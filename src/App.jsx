@@ -1,5 +1,4 @@
 import React from 'react';
-import myCV from './assets/mycv.pdf';
 import { SiUpwork, SiLinkedin, SiFacebook, SiInstagram, SiGithub } from 'react-icons/si';
 const App = () => {
   const sendEmail = (e) => {
@@ -55,8 +54,8 @@ const App = () => {
             </p>
             
             <div className="flex flex-wrap items-center gap-4">
- <a
-  href={myCV}
+<a
+  href="/cv.pdf"
   download="Arfa_Jamil_CV.pdf"
   className="bg-[#00df9a] text-black font-bold px-6 py-3 rounded-xl flex items-center gap-2 hover:bg-[#00c689] transition-all"
 >
