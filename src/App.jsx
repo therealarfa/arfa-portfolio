@@ -539,25 +539,25 @@ const sendEmail = (e) => {
   LET'S TALK.
 </h2>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-20">
-            {/* Email */}
-            <a href="mailto:therealarfa@gmail.com" className="group bg-[#00df9a] p-12 rounded-[50px] text-black hover:scale-105 transition-all">
-              <div className="text-5xl mb-6 group-hover:rotate-12 transition-transform">✉️</div>
-              <p className="font-black text-[10px] md:text-xs tracking-widest uppercase">therealarfa@gmail.com</p>
-            </a>
+          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+  {/* 1. Email Card */}
+  <a href="mailto:therealarfa@gmail.com" className="group bg-[#00df9a] p-6 rounded-3xl text-black hover:scale-105 transition-transform flex flex-col items-center justify-center text-center">
+    <div className="text-3xl mb-3 group-hover:rotate-12 transition-transform">✉️</div>
+    <p className="font-black text-xs tracking-widest uppercase">therealarfa@gmail.com</p>
+  </a>
 
-            {/* Phone */}
-            <a href="tel:+923198931313" className="group bg-[#0a0f1e] p-12 rounded-[50px] border border-white/10 hover:border-[#00df9a] hover:scale-105 transition-all">
-              <div className="text-5xl mb-6 group-hover:scale-110 transition-transform text-[#00df9a]">📞</div>
-              <p className="text-slate-400 font-black text-[10px] md:text-xs tracking-widest uppercase">+92 319 8931313</p>
-            </a>
+  {/* 2. Phone Card */}
+  <a href="tel:+923198931313" className="group bg-[#0a0f1e] p-6 rounded-3xl border border-white/10 hover:border-[#00df9a]/50 hover:scale-105 transition-transform flex flex-col items-center justify-center text-center">
+    <div className="text-3xl mb-3 group-hover:scale-110 transition-transform text-[#00df9a]">📞</div>
+    <p className="text-slate-400 font-black text-xs tracking-widest uppercase">+92 319 8931313</p>
+  </a>
 
-            {/* Address */}
-            <div className="group bg-[#0a0f1e] p-12 rounded-[50px] border border-white/10 hover:border-[#00df9a] hover:scale-105 transition-all">
-              <div className="text-5xl mb-6 group-hover:-translate-y-2 transition-transform text-[#00df9a]">📍</div>
-              <p className="text-slate-400 font-black text-[10px] md:text-xs tracking-widest uppercase">Kasur, Punjab, PK</p>
-            </div>
-          </div>
+  {/* 3. Location Card */}
+  <div className="group bg-[#0a0f1e] p-6 rounded-3xl border border-white/10 flex flex-col items-center justify-center text-center">
+    <div className="text-3xl mb-3 text-[#00df9a]">📍</div>
+    <p className="text-slate-400 font-black text-xs tracking-widest uppercase">Kasur, Punjab, PK</p>
+  </div>
+</div>
 
           {/* Social Icons */}
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-24">
