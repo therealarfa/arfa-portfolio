@@ -1,5 +1,22 @@
 import React from 'react';
+import emailjs from '@emailjs/browser';
 const App = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      'service_6wyhaew', 
+      'template_qcj27b9', 
+      e.target,
+      '0xnQJmwnbMG2sU_Yj' // Yahan EmailJS Account se copy ki hui Public Key paste karein
+    )
+    .then(() => {
+      alert('Message sent successfully! 🚀');
+      e.target.reset();
+    }, (error) => {
+      alert('Failed to send message. Please try again.');
+    });
+  };
   // Skills from your CV
   const skills = [
     { name: 'Digital Marketing', desc: 'Strategy & Growth' },
@@ -199,14 +216,15 @@ const App = () => {
             Have a project in mind or a hiring inquiry? Send a quick message below.
           </p>
 
-          <form onSubmit={(e) => { e.preventDefault(); alert('Message Sent Successfully!'); }} className="space-y-4">
+          <form onSubmit={sendEmail} className="space-y-4">
             <div className="grid md:grid-cols-2 gap-4">
-              <input 
-                type="text" 
-                placeholder="Your Name" 
-                required 
-                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-[#00df9a]"
-              />
+              <input
+  type="text"
+  name="name"
+  placeholder="Your Name"
+  required
+  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none"
+/>
               <input 
                 type="email" 
                 placeholder="Your Email" 
@@ -214,11 +232,12 @@ const App = () => {
                 className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-[#00df9a]"
               />
             </div>
-            <input 
-              type="text" 
-              placeholder="Subject (e.g. Website Development / Hiring)" 
-              className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-[#00df9a]"
-            />
+           <input
+  type="text"
+  name="title"
+  placeholder="Subject (e.g. Website Development / Hiring)"
+  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none"
+/>
             <textarea 
               rows="4" 
               placeholder="Write your message here..." 
