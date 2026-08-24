@@ -1,5 +1,8 @@
 import React from 'react';
-
+import profileImg from './assets/profile.jpg.jpeg';
+import traffic1 from './assets/traffic-1.png';
+import traffic2 from './assets/traffic-2.png';
+import traffic3 from './assets/traffic-3.png';
 const App = () => {
   // Skills from your CV
   const skills = [
@@ -62,7 +65,7 @@ const App = () => {
           <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'flex-end' }}>
             <div className="relative group w-72 h-80 md:w-80 md:h-[420px] border-2 border-[#00df9a] rounded-3xl overflow-hidden shadow-2xl cursor-pointer">
               <img 
-                src="/src/assets/profile.jpg.jpeg" 
+                src={profileImg}
                 alt="Arfa Jamil" 
                 style={{ objectPosition: '50% 10%' }}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
@@ -133,7 +136,7 @@ const App = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <div className="h-44 bg-slate-800 rounded-2xl overflow-hidden border border-white/10">
                 <img 
-                  src="/src/assets/traffic-1.png" 
+                  src={traffic1} 
                   alt="Traffic AI Preview 1" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   onError={(e) => { e.target.style.display = 'none'; }}
@@ -141,7 +144,7 @@ const App = () => {
               </div>
               <div className="h-44 bg-slate-800 rounded-2xl overflow-hidden border border-white/10">
                 <img 
-                  src="/src/assets/traffic-2.png" 
+                  src={traffic2} 
                   alt="Traffic AI Preview 2" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   onError={(e) => { e.target.style.display = 'none'; }}
@@ -149,7 +152,7 @@ const App = () => {
               </div>
               <div className="h-44 bg-slate-800 rounded-2xl overflow-hidden border border-white/10">
                 <img 
-                  src="/src/assets/traffic-3.png" 
+                  src={traffic3} 
                   alt="Traffic AI Preview 3" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   onError={(e) => { e.target.style.display = 'none'; }}
