@@ -55,9 +55,14 @@ const App = () => {
             </p>
             
             <div className="flex flex-wrap items-center gap-4">
-              <a href="/cv.pdf" download className="bg-[#00df9a] text-black px-6 py-3 rounded-xl font-bold uppercase hover:scale-105 transition-all text-sm">
-                DOWNLOAD CV 📥
-              </a>
+              <a 
+  href="APNA_GOOGLE_DRIVE_LINK_YAHAN_PASTE_KAREIN" 
+  target="_blank" 
+  rel="noreferrer"
+  className="..."
+>
+  DOWNLOAD CV 📥
+</a>
               <a href="https://wa.me/923198931313" target="_blank" rel="noreferrer" className="border border-white/20 bg-white/5 text-white px-6 py-3 rounded-xl font-bold uppercase hover:bg-white/10 transition-all text-sm">
                 CONTACT WHATSAPP 💬
               </a>
