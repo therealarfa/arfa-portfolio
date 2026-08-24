@@ -1,22 +1,22 @@
 import React from 'react';
 import emailjs from '@emailjs/browser';
 const App = () => {
-  const sendEmail = (e) => {
-    e.preventDefault();
+ const sendEmail = (e) => {
+  e.preventDefault();
 
-    emailjs.sendForm(
-      'service_6wyhaew', 
-      'template_qcj27b9', 
-      e.target,
-      '0xnQJmwnbMG2sU_Yj' // Yahan EmailJS Account se copy ki hui Public Key paste karein
-    )
-    .then(() => {
-      alert('Message sent successfully! 🚀');
-      e.target.reset();
-    }, (error) => {
-      alert('Failed to send message. Please try again.');
-    });
-  };
+  emailjs.sendForm(
+    'service_6wyhaew', 
+    'template_qcj27b9', 
+    e.target,
+    'YOUR_PUBLIC_KEY' // <--- Yahan EmailJS Account tab se milli Public Key paste karein
+  )
+  .then(() => {
+    alert('Message sent successfully! 🚀');
+    e.target.reset();
+  }, (error) => {
+    alert('Failed to send message: ' + JSON.stringify(error));
+  });
+};
   // Skills from your CV
   const skills = [
     { name: 'Digital Marketing', desc: 'Strategy & Growth' },
