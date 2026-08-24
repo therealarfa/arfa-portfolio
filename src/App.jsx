@@ -56,13 +56,12 @@ const App = () => {
             
             <div className="flex flex-wrap items-center gap-4">
     <a
-            href="cv.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="bg-[#00df9a] text-black font-bold px-6 py-3 rounded-xl flex items-center gap-2 hover:bg-[#00c689] transition-all"
-          >
-            DOWNLOAD CV 📥
-          </a>
+  href="/Arfa Jamil.pdf"
+  download="Arfa_Jamil_CV.pdf"
+  className="bg-[#00df9a] text-black font-bold px-6 py-3 rounded-xl flex items-center gap-2 hover:bg-[#00c689] transition-all"
+>
+  DOWNLOAD CV 📥
+</a>
               <a href="https://wa.me/923198931313" target="_blank" rel="noreferrer" className="border border-white/20 bg-white/5 text-white px-6 py-3 rounded-xl font-bold uppercase hover:bg-white/10 transition-all text-sm">
                 CONTACT WHATSAPP 💬
               </a>
