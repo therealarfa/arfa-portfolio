@@ -561,9 +561,15 @@ const sendEmail = (e) => {
 
           {/* Social Icons */}
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-24">
-            <a href="https://www.upwork.com" target="_blank" rel="noreferrer" className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:border-[#00df9a] hover:scale-110 transition-all group">
-              <img src="https://cdn.simpleicons.org/upwork/00df9a" alt="Upwork" className="w-6 h-6 opacity-80 group-hover:opacity-100" />
-            </a>
+           {/* Upwork Icon Link */}
+<a 
+  href="https://www.upwork.com/freelancers/~01f92f447d55037458?mp_source=share" 
+  target="_blank" 
+  rel="noreferrer"
+  className="..."
+>
+  {/* Upwork SVG / Icon code here */}
+</a>
 
             {/* LinkedIn Fixed SVG Icon */}
             <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:border-[#00df9a] hover:scale-110 transition-all group">
@@ -572,17 +578,35 @@ const sendEmail = (e) => {
               </svg>
             </a>
 
-            <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:border-[#00df9a] hover:scale-110 transition-all group">
-              <img src="https://cdn.simpleicons.org/facebook/00df9a" alt="Facebook" className="w-6 h-6 opacity-80 group-hover:opacity-100" />
-            </a>
+            {/* Facebook Icon Link */}
+<a 
+  href="https://www.facebook.com/share/1Jcw6W4ijH/" 
+  target="_blank" 
+  rel="noreferrer"
+  className="..."
+>
+  {/* Facebook SVG / Icon code here */}
+</a>
 
-            <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:border-[#00df9a] hover:scale-110 transition-all group">
-              <img src="https://cdn.simpleicons.org/instagram/00df9a" alt="Instagram" className="w-6 h-6 opacity-80 group-hover:opacity-100" />
-            </a>
+            {/* Instagram Icon Link */}
+<a 
+  href="https://www.instagram.com/arfi_barfi_13?igsi=dDY2ZHphZnptbGE=" 
+  target="_blank" 
+  rel="noreferrer"
+  className="..."
+>
+  {/* Instagram SVG / Icon code here */}
+</a>
 
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:border-[#00df9a] hover:scale-110 transition-all group">
-              <img src="https://cdn.simpleicons.org/github/00df9a" alt="GitHub" className="w-6 h-6 opacity-80 group-hover:opacity-100" />
-            </a>
+            {/* GitHub Icon Link */}
+<a 
+  href="https://github.com/therealarfa" 
+  target="_blank" 
+  rel="noreferrer"
+  className="..."
+>
+  {/* GitHub SVG / Icon code here */}
+</a>
           </div>
 
           <p className="text-[10px] tracking-[1em] text-white/20 uppercase italic border-t border-white/5 pt-16">
