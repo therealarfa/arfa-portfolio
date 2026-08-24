@@ -56,7 +56,7 @@ const App = () => {
             
             <div className="flex flex-wrap items-center gap-4">
     <a
-  href="/Arfa Jamil.pdf"
+  href="/cv-new.pdf"
   download="Arfa_Jamil_CV.pdf"
   className="bg-[#00df9a] text-black font-bold px-6 py-3 rounded-xl flex items-center gap-2 hover:bg-[#00c689] transition-all"
 >
