@@ -56,7 +56,7 @@ const App = () => {
             
             <div className="flex flex-wrap items-center gap-4">
     <a
-            href="https://drive.google.com/file/d/1hV6icxLdUALW9vi1gL9x9MUgsC5DLJtF/view?usp=sharing"
+            href="cv.pdf"
             target="_blank"
             rel="noreferrer"
             className="bg-[#00df9a] text-black font-bold px-6 py-3 rounded-xl flex items-center gap-2 hover:bg-[#00c689] transition-all"
