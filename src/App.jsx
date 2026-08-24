@@ -563,7 +563,7 @@ const App = () => {
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-2xl bg-[#0a0f1e] border border-white/10 flex items-center justify-center text-[#00df9a] hover:bg-[#00df9a] hover:text-black transition-all">
-            <SiLinkedin className="w-6 h-6" />
+            <FaLinkedin className="w-6 h-6"/>
           </a>
 
           {/* Facebook */}
