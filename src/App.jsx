@@ -535,9 +535,9 @@ const sendEmail = (e) => {
       {/* 5. CONTACT SECTION */}
       <section id="contact" className="py-24 px-6 bg-[#00df9a]/5">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-7xl md:text-9xl font-black italic uppercase mb-20 tracking-tighter">
-            LET'S TALK.
-          </h2>
+          <h2 className="text-4xl md:text-6xl font-black italic uppercase mb-10 tracking-tighter">
+  LET'S TALK.
+</h2>
 
           <div className="grid md:grid-cols-3 gap-8 mb-20">
             {/* Email */}
