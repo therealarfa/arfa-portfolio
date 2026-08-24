@@ -532,91 +532,54 @@ const sendEmail = (e) => {
         </div>
       </section>
 
-      {/* 5. CONTACT SECTION */}
-      <section id="contact" className="py-24 px-6 bg-[#00df9a]/5">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl md:text-6xl font-black italic uppercase mb-10 tracking-tighter">
-  LET'S TALK.
-</h2>
+{/* 5. CONTACT SECTION */}
+    <section id="contact" className="py-24 px-6 bg-[#00df9a]/5">
+      <div className="max-w-7xl mx-auto text-center">
+        <h2 className="text-4xl md:text-6xl font-black italic uppercase mb-10 tracking-tighter">
+          LET'S TALK.
+        </h2>
 
-          <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
-  {/* 1. Email Card */}
-  <a href="mailto:therealarfa@gmail.com" className="group bg-[#00df9a] p-6 rounded-3xl text-black hover:scale-105 transition-transform flex flex-col items-center justify-center text-center">
-    <div className="text-3xl mb-3 group-hover:rotate-12 transition-transform">✉️</div>
-    <p className="font-black text-xs tracking-widest uppercase">therealarfa@gmail.com</p>
-  </a>
+        {/* Contact Cards Grid */}
+        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+          {/* Email Card */}
+          <a href="mailto:therealarfa@gmail.com" className="group bg-[#00df9a] p-6 rounded-3xl text-black hover:scale-105 transition-transform flex flex-col items-center justify-center text-center">
+            <div className="text-3xl mb-3 group-hover:rotate-12 transition-transform">✉️</div>
+            <p className="font-black text-xs tracking-widest uppercase">therealarfa@gmail.com</p>
+          </a>
 
-  {/* 2. Phone Card */}
-  <a href="tel:+923198931313" className="group bg-[#0a0f1e] p-6 rounded-3xl border border-white/10 hover:border-[#00df9a]/50 hover:scale-105 transition-transform flex flex-col items-center justify-center text-center">
-    <div className="text-3xl mb-3 group-hover:scale-110 transition-transform text-[#00df9a]">📞</div>
-    <p className="text-slate-400 font-black text-xs tracking-widest uppercase">+92 319 8931313</p>
-  </a>
+          {/* Phone Card */}
+          <a href="tel:+923198931313" className="group bg-[#0a0f1e] p-6 rounded-3xl border border-white/10 hover:border-[#00df9a]/50 hover:scale-105 transition-transform flex flex-col items-center justify-center text-center">
+            <div className="text-3xl mb-3 group-hover:scale-110 transition-transform text-[#00df9a]">📞</div>
+            <p className="text-slate-400 font-black text-xs tracking-widest uppercase">+92 319 8931313</p>
+          </a>
 
-  {/* 3. Location Card */}
-  <div className="group bg-[#0a0f1e] p-6 rounded-3xl border border-white/10 flex flex-col items-center justify-center text-center">
-    <div className="text-3xl mb-3 text-[#00df9a]">📍</div>
-    <p className="text-slate-400 font-black text-xs tracking-widest uppercase">Kasur, Punjab, PK</p>
-  </div>
-</div>
-
-          {/* Social Icons */}
-          <div className="flex flex-wrap justify-center gap-4 md:gap-6 mb-24">
-           {/* Upwork Icon Link */}
-<a 
-  href="https://www.upwork.com/freelancers/~01f92f447d55037458?mp_source=share" 
-  target="_blank" 
-  rel="noreferrer"
-  className="..."
->
-  {/* Upwork SVG / Icon code here */}
-</a>
-
-            {/* LinkedIn Fixed SVG Icon */}
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center hover:border-[#00df9a] hover:scale-110 transition-all group">
-              <svg className="w-6 h-6 fill-[#00df9a] opacity-80 group-hover:opacity-100" viewBox="0 0 24 24">
-                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
-              </svg>
-            </a>
-
-            {/* Facebook Icon Link */}
-<a 
-  href="https://www.facebook.com/share/1Jcw6W4ijH/" 
-  target="_blank" 
-  rel="noreferrer"
-  className="..."
->
-  {/* Facebook SVG / Icon code here */}
-</a>
-
-            {/* Instagram Icon Link */}
-<a 
-  href="https://www.instagram.com/arfi_barfi_13?igsi=dDY2ZHphZnptbGE=" 
-  target="_blank" 
-  rel="noreferrer"
-  className="..."
->
-  {/* Instagram SVG / Icon code here */}
-</a>
-
-            {/* GitHub Icon Link */}
-<a 
-  href="https://github.com/therealarfa" 
-  target="_blank" 
-  rel="noreferrer"
-  className="..."
->
-  {/* GitHub SVG / Icon code here */}
-</a>
+          {/* Location Card */}
+          <div className="group bg-[#0a0f1e] p-6 rounded-3xl border border-white/10 flex flex-col items-center justify-center text-center">
+            <div className="text-3xl mb-3 text-[#00df9a]">📍</div>
+            <p className="text-slate-400 font-black text-xs tracking-widest uppercase">Kasur, Punjab, PK</p>
           </div>
-
-          <p className="text-[10px] tracking-[1em] text-white/20 uppercase italic border-t border-white/5 pt-16">
-            ARFA JAMIL © 2024 • GLOBAL REMOTE SPECIALIST
-          </p>
         </div>
-      </section>
 
-    </div>
-  );
+        {/* Social Icons */}
+        <div className="flex flex-wrap justify-center gap-4 md:gap-6 my-10">
+          <a href="https://www.upwork.com/freelancers/~01f92f447d55037458?mp_source=share" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-2xl bg-[#0a0f1e] border border-white/10 flex items-center justify-center text-[#00df9a] hover:bg-[#00df9a] hover:text-black transition-all font-bold">
+            Up
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-2xl bg-[#0a0f1e] border border-white/10 flex items-center justify-center text-[#00df9a] hover:bg-[#00df9a] hover:text-black transition-all font-bold">
+            in
+          </a>
+          <a href="https://www.facebook.com/share/1Jcw6W4ijH/" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-2xl bg-[#0a0f1e] border border-white/10 flex items-center justify-center text-[#00df9a] hover:bg-[#00df9a] hover:text-black transition-all font-bold">
+            f
+          </a>
+          <a href="https://www.instagram.com/arfi_barfi_13?igsi=dDY2ZHphZnptbGE=" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-2xl bg-[#0a0f1e] border border-white/10 flex items-center justify-center text-[#00df9a] hover:bg-[#00df9a] hover:text-black transition-all font-bold">
+            IG
+          </a>
+          <a href="https://github.com/therealarfa" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-2xl bg-[#0a0f1e] border border-white/10 flex items-center justify-center text-[#00df9a] hover:bg-[#00df9a] hover:text-black transition-all font-bold">
+            GH
+          </a>
+        </div>
+      </div>
+    </section>
 };
 
 export default App;
