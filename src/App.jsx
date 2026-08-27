@@ -562,9 +562,14 @@ const App = () => {
           </a>
 
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-2xl bg-[#0a0f1e] border border-white/10 flex items-center justify-center text-[#00df9a] hover:bg-[#00df9a] hover:text-black transition-all">
-            <FaLinkedin className="w-6 h-6"/>
-          </a>
+<a 
+  href="https://www.linkedin.com/in/arfa-jamil-836a6a431" 
+  target="_blank" 
+  rel="noreferrer" 
+  className="w-14 h-14 rounded-2xl bg-[#0a0f1e] flex items-center justify-center text-slate-400 hover:text-[#00df9a] transition-all duration-300"
+>
+  <FaLinkedin className="w-6 h-6" />
+</a>
 
           {/* Facebook */}
           <a href="https://www.facebook.com/share/1Jcw6W4ijH/" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-2xl bg-[#0a0f1e] border border-white/10 flex items-center justify-center text-[#00df9a] hover:bg-[#00df9a] hover:text-black transition-all">
