@@ -561,14 +561,14 @@ const App = () => {
             <SiUpwork className="w-6 h-6" />
           </a>
 
-          {/* LinkedIn */}
+   {/* LinkedIn */}
 <a 
   href="https://www.linkedin.com/in/arfa-jamil-836a6a431" 
   target="_blank" 
   rel="noreferrer" 
-  className="w-14 h-14 rounded-2xl bg-[#0a0f1e] flex items-center justify-center text-slate-400 hover:text-[#00df9a] transition-all duration-300"
+  className="w-14 h-14 rounded-2xl bg-[#0a0f1e] flex items-center justify-center text-[#00df9a] hover:scale-110 transition-all duration-300"
 >
-  <FaLinkedin className="w-6 h-6" />
+  <FaLinkedin className="w-6 h-6 fill-current" />
 </a>
 
           {/* Facebook */}
